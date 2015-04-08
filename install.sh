@@ -4,7 +4,7 @@ sudo sh crouton -t core
 sudo apt-get install build-essential git-core vim emacs screen tmux zsh tree htop curl wget libssl-dev zlib1g-dev man
 
 # Ohmyzsh
-wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
+sudo wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
 
 # Node
 wget http://nodejs.org/dist/v0.11.9/node-v0.11.9.tar.gz 
