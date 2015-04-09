@@ -1,7 +1,7 @@
 # Use crouton to install core target.
 sudo sh crouton -t core
 
-sudo apt-get install build-essential git-core vim emacs screen tmux zsh tree htop curl wget libssl-dev zlib1g-dev man
+sudo apt-get install build-essential git-core vim emacs screen tmux zsh tree htop curl wget libssl-dev zlib1g-dev man mosh
 
 # Ohmyzsh
 sudo wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
